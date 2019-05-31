@@ -1,19 +1,24 @@
 {
   "name": "victory-demo",
   "version": "0.0.2",
+  "main": "node_modules/expo/AppEntry.js",
   "dependencies": {
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
-    "react": "16.8.5",
-    "react-native": "0.59.2",
-    "react-native-gesture-handler": "^1.1.0",
-    "react-native-svg": "9.3.6",
+    "@expo/vector-icons": "10.0.1",
+    "expo": "32.0.6",
+    "react": "16.5.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.1.tar.gz",
     "react-navigation": "^1.0.0",
     "victory-native": "*"
   },
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/runtime": "^7.4.2",
+    "@types/expo": "32.0.8",
+    "@types/expo__vector-icons": "9.0.1",
+    "@types/react": "16.7.20",
+    "@types/react-native": "0.57.18",
     "babel-jest": "24.5.0",
     "babel-plugin-module-resolver": "^3.2.0",
     "jest": "24.5.0",

@@ -9,6 +9,7 @@ import {
   VictoryLine,
   VictoryScatter,
   VictoryArea,
+  VictoryPolarAxis,
   VictoryStack,
   VictoryTooltip
 } from "victory-native";
@@ -80,7 +81,7 @@ export default class extends React.Component {
 
         <VictoryChart>
           <VictoryScatter
-            labelComponent={<VictoryTooltip/>}
+            labelComponent={<VictoryTooltip />}
             data={[
               {
                 x: 1,
@@ -125,9 +126,11 @@ export default class extends React.Component {
           />
         </VictoryChart>
         <VictoryChart animate={{ duration: 2000 }}>
-          <VictoryArea
-            data={this.state.transitionData}
-          />
+          <VictoryArea data={this.state.transitionData} />
+        </VictoryChart>
+        <VictoryChart polar animate={{ duration: 2000 }}>
+          <VictoryArea data={this.state.transitionData} />
+          <VictoryPolarAxis />
         </VictoryChart>
         <VictoryChart animate={{ duration: 2000 }}>
           <VictoryBar
