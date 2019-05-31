@@ -128,10 +128,6 @@ export default class extends React.Component {
         <VictoryChart animate={{ duration: 2000 }}>
           <VictoryArea data={this.state.transitionData} />
         </VictoryChart>
-        <VictoryChart polar animate={{ duration: 2000 }}>
-          <VictoryArea data={this.state.transitionData} />
-          <VictoryPolarAxis />
-        </VictoryChart>
         <VictoryChart animate={{ duration: 2000 }}>
           <VictoryBar
             labels={() => "Hi"}

@@ -13,6 +13,7 @@ import ChartView from "./views/chart-view";
 import LineView from "./views/line-view";
 import ScatterView from "./views/scatter-view";
 import BoxPlotView from "./views/boxplot-view";
+import { PolarChartView } from "./views/polar-chart-view";
 
 export default stackNavigator(
   {
@@ -22,6 +23,7 @@ export default stackNavigator(
     BarView: { screen: BarView },
     BoxPlotView: { screen: BoxPlotView },
     ChartView: { screen: ChartView },
+    PolarChartView: { screen: PolarChartView },
     LineView: { screen: LineView },
     ScatterView: { screen: ScatterView },
     ContainersView: { screen: ContainersView },

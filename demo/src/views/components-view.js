@@ -15,6 +15,7 @@ const sections = [
     data: [
       { key: "PieView", title: "VictoryPie" },
       { key: "ChartView", title: "VictoryChart" },
+      { key: "PolarChartView", title: "VictoryPolar" },
       { key: "LineView", title: "VictoryLine" },
       { key: "AreaView", title: "VictoryArea" },
       { key: "BarView", title: "VictoryBar" },
